@@ -1,0 +1,26 @@
+.Hand-btn-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.Hand-btn {
+	background: black;
+	outline: none;
+	font: inherit;
+	font-size: 1em;
+	margin: 0.5em;
+	padding: 1em 2em;
+	color: #009688;
+	transition: 0.4s;
+}
+.Hand-btn.hit:hover {
+	color: azure;
+	border-color: #803b35;
+	box-shadow: inset 0 0 0 2em #af4c4c;
+}
+.Hand-btn.stay:hover {
+	color: azure;
+	border-color: #354680;
+	box-shadow: inset 0 0 0 2em #4c98af;
+}
